@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
+
+    <title>Jody's HCDE 533 Page</title>
+
+    <link href="style.css" media="screen" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+
+    <div class="header">
+        <h1>Assignment 4: Utter Chaos (a.k.a. Subtractive Manufacturing)</h1>
+        <p>
+            <img src="NewRemeasured-100.jpg" width="600" />
+        </p>
+        <p>
+            Here is all the documentation for assignment 4.  I believe this assignment was under a Halloween curse.  Everything that could go wrong - did. <br />
+            <img src="witch.png" width="450" /> <br />
+        </p>
+        <p>
+            Things started out okay.  First I worked on the dogbone joints in Rhino - first just trying to get the shape down, and then trimming them from the larger box side shapes in various measurements (shown: 3cm). <br />
+            <img src="firstattemptdogbone-100.jpg" width="500" /> <br />
+            <img src="StartTrim3cm-100.jpg" width="500" /> <br />
+            <br />
+            I created two separate box patterns in Rhino, one with dogbone joints, and one without.  Both are square boxes, which started at 4x4cm, but ended up at 6x6cm. They have engravings planned for each side - a cat for the front and back, a lotus for the right and left, and circles for the top and bottom. <br />
+            <img src="3sizeboxes-100.jpg" width="500" /> <br />
+            <img src="BothSets-100.jpg" width="500" /> <br />
+            <img src="BoxwEngravings-100.jpg" width="500" /> <br />
+            <br />
+            Next thing to do was to try a paper model, just to see if this could be successful: <br />
+            <img src="paper1corner1.jpg" width="450" />
+            <img src="paper1corner2_2883.jpg" width="450" /> <br/>
+            <img src="paper2corners1.jpg" width="500" />
+            <img src="paper2corners2.jpg" width="500" /> <br />
+        </p>
+        <p>
+            I created my engraving designs in Illustrator and imported them into Rhino.  When I started to upload my Rhino files into KiCAD to create Gerber files, I had to handle these with care, as they did not transfer the journey well.  I often had to put them back together, even if I had rasterized them in AI. <br />
+            <img src="CatDesign-100.jpg" width="500" /> <br />
+            <img src="LotusLeft-100.jpg" width="500" /> <br />
+            <img src="RasterCat-100.jpg" width="300" /> <br />
+            <br />
+            At that point I started converting my files in KiCad, using the 'Plot' feature, into Gerber files. These would be ready for Bantam, when I went to the Mill.  <br />
+            <img src="KiCAD1-100.jpg" width="700" /> <br />
+            <img src="SavedforKiCad-100.jpg" width="500" /> <br />
+        </p>
+        <p>
+            I headed to the Mill for what would be my first try at using the CNC mills to cut and engrave my box sides for assembly.  It turned out that I had somehow mismeasured (after using the grids in Rhino, set to mm) my box sides!<br />
+            <img src="MillBantam1.jpg" width="500" /><br />
+            <img src="MillBantam1.2.jpg" width="500" /> <br />
+            Kudos to Juntao for helping me on Discord during this mess, but the only thing I could do was to go home - there was no way we could find to resize files in KiCAD or Bantam, and my Rhino files were at home (I don't like to work in Rhino on my Macbook). <br />
+        </p>
+        <p>
+            I came home to resize my files.  I purchased my own pack of FR1 and double-sided tape so I could make one side of the box per piece and still have enough for my protective layer. I changed the size of everything to be 6x6cm, with the engravings at 5x5cm (though I worked in mm). <br />
+            <img src="NewRemeasured-100.jpg" width="500" /> <br />
+            <img src="NewDogBones-100.jpg" width="500" /> <br />
+        </p>
+        <p>
+            On Monday I returned to the Mill with my new files (including the Rhino files), set to cut the box sides and do my engraving this time.  I tried two CNC mills and 4 different bits (in 2 sizes, since Bantam kept telling me I needed 2 sizes). <br />
+            <br />
+            One mill simply would not allow my material to be perforated, no matter how much I reset the homing settings and traded out bits.  I switched to a different mill, and had the opposite problem, the bit worked so hard through the material that it ripped off even the protective layer, and no amount of double-sided tape would keep things in place for it to cut. <br />
+            This was very depressing, as I was able to get my box sides placed correctly, though Bantam would not distinguish between the edge cut piece and engraved piece (user drawing), so I could not set my engravings to, well, engrave. <br />
+            <img src="Mill2d.jpg" width="450" />
+            <img src="MillVisit2b.jpg" width="450" /> <br />
+            <img src="MillVisit3c.jpg" width="450" />
+            <img src="mill2h.jpg" width="450" /> <br />
+            <img src="Mill2e.jpg" width="450" />
+            <img src="Mill2f.jpg" width="450" /> <br />
+            <br />
+            I ran out of time. I have been feeling sick throughout this entire assignment, and I'd had enough.  Nobody in the Mill knew how to help me, and I was out of ideas:
+            <video width="600" height="400" controls>
+                <source src="Mill.mp4" type="video/mp4" />
+                <source src="movie.ogg" type="video/ogg" />
+            </video> <br />
+        </p>
+        <p>
+            It was time for the Last Resort, the 3D printer.  I started to print pieces, and was up until 4am on Tuesday morning, until the nozzle got clogged.  I am still, as of 1pm Tuesday, trying to fix this. <br />
+            <img src="3DPrint1.jpg" width="500" /> <br />
+            <img src="3DPrint2.jpg" width="500" /> <br />
+            <br />
+            This is what I have ended up with: <br />
+            <img src="pieces.jpg" width="500" /><br />
+            It was starting to work, though! <br />
+            <img src="FinalShot.jpg" width="500" /> <br />
+        </p>
+        <p>
+            <bold>Source Files:</bold> <br />
+            <a href="file:///D:\jlafleuw\jlafleuw-github.io">New3DRhinoSourceFile.3dm</a> <br />
+            <a href="file:///D:\jlafleuw\jlafleuw-github.io">BottomEdgeDBNew-Edge_Cuts.gbr</a> <br />
+            <a href="file:///D:\jlafleuw\jlafleuw-github.io">Cat-User_Drawings.gbr</a><br />
+            <a href="file:///D:\jlafleuw\jlafleuw-github.io">Circles-User_Drawings.gbr</a><br />
+            <a href="file:///D:\jlafleuw\jlafleuw-github.io">EdgeBackDB-Edge_Cuts.gbr</a><br />
+            <a href="file:///D:\jlafleuw\jlafleuw-github.io">FrontEdgeDB-Edge_Cuts.gbr</a><br />
+            <a href="file:///D:\jlafleuw\jlafleuw-github.io">Lotus-User_Drawings.gbr</a><br />
+            <a href="file:///D:\jlafleuw\jlafleuw-github.io">RightEdgeDB-Edge_Cuts.gbr</a><br />
+            <a href="file:///D:\jlafleuw\jlafleuw-github.io">TopEdgeDBNew-Edge_Cuts.gbr</a><br />
+        </p>
+    </div>
+
+        </body>
+</html>
