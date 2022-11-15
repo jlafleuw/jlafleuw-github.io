@@ -12,9 +12,9 @@
 <body>
 
     <div class="header">
-        <h1>Illuminating the World Around Me (Making a Lamp)</h1>
+        <h1>Illuminating the World Around Me (Making a Lamp) PLUS Molding and Casting Part 1</h1>
         <p>
-            <img src="LampBases.jpg" width="600" />
+            <img src="BlueMousie.jpg" width="600" />
         </p>
         <p>
             This will contain all of my documentation for the Lamp Assignment.  As of November 8th, however, the page shows my inspiration, planning, and experimentation process with patterns and other elements.  <br />
@@ -52,19 +52,170 @@
             My last experiment at this time is a meshy base lamp in a bulbuous shape that I made using LunchBox, where I experimented with some online instructions from Cults on how to make a cover and attachment for the lamp base to go with it.  I would still need to shrink the lower part of the bulb even more, I am working in that. <br />
             <img src="MeshBulbBaseLamp-100.jpg" width="600" /> <br />
         </p>
-        <p
-            More coming soon... <br />
+        <p>
+            Part 2: The Lamp Adventure Continues! <br />
         </p>
-       <p>
+        <br />
+
+        <p>
+            While I worked for a while on the Jelly hanging lamp, I couldn't find a neat way, using holes or Boolean differences, to make the tentacles hang nicely, and time was starting to run short. <br />
+            <br />
+            Seeing examples of Voronoi mesh in class made me really want to try making s Voronoi mesh bulb lampshade for my table lamp base, but first I had to figure out howe to make a strong Voronoi mesh in Grasshopper.  This involved finding tutorial videos online and a lot of experimentation. I started with making a cone and a sphere. <br />
+            <br />
+            <img src="VoronoiSphereCodeOnlyGH.jpg" width="600" /> <br />
+            <img src="VoronoiSphereCodeGH.jpeg" width="550" /> <br />
+            <img src="VoronizeLampSphere2-100" width="600" /> <br />
+            Once I had a working sphere, I copied it into Rhino where I could put points into it and try to mold it into a shape. Later I had to make it taller to fit the bulb shaft and lightbulb, with room for space between the lampshade and bulb. <br />
+            <img src="VoronizeLampSphere-100.jpg" width="600" /> <br />
+            <img src="VoronoiLampshadeRhino-100.jpg" width="600" /> <br />
+            <img src="VoronoiLampshadewDescrip-100.jpg" width="600" /> <br />
+        </p>
+        <p>
+            <b>The Rest of the Story</b><br />
+            A lampshade does not make a lamp.  I still needed to design base elements to support and adhere the lampshade to my table lamp base.  This would include a base casing for the lamp, a bulb shaft tube to cover the bulb shaft, and a top ring to shap into the base case and support the lampshade. <br />
+            <br />
+            I found a tutorial and artist who helped me to get started with making these elements, as they had displayed their own similar design online, on Cults, linking to http://adafruit.com.  Limor Fried is the artist who gave me some tips. <br />
+            <br />
+            I was able to design these components in Rhino by making basic shapes, extruding them, and using careful measurements along with the actual lamp base measurements to get everything right (and remembering to leave things like a hole for the lamp cord, etc.). <br />
+            <br />
+            Still, it took 6 tries to print the bulb shaft tube, and two tries each for the lamp base case and top ring, carefully aligning the Rhino specs in Cura. This ended up being the easy printing part. <br />
+            <img src="BaseCasewDescrip-100.jpg" width="600" /> <br />
+            <img src="BulbShaftTubewDescrip-100.jpg" width="600" /> <br />
+            <img src="RingBasewDescrip-100.jpg" width="600" /> <br />
+            <img src="MeshBulbBaseLamp-100.jpg" width="600" /> <br />
+        </p>
+        <br />
+        <p>
+            It was time to start printing, and I began with the base components. The first base case was a spiralized version, for size. <br />
+            <img src="BasePrintTestSpiral.jpg" width="500" /> <br />
+            Then I made adjustments (it was a little too big) and printed a real version, which fit perfectly. I moved on to the bulb shaft, which took 6 tries to get a perfect fit. <br />
+            <img src="BulbShaftCura-100.jpg" width="650" /> <br />
+            <img src="PlacingBulbTube.jpg" width="600" /> <br />
+            <img src="BulbTubeFits.jpg" width="450" />
+            <img src="BulbTubeFits2.jpg" width="450" /> <br />
+            <img src="ManyTriesBulbTube.jpg" width="600" /> <br />
+            <br />
+            Finally, I moved on to printing the base ring, which only took 2 tries, and I was able to pause printing on the first try to test it with the base case, realised it was the wrong size, made adjustments, and reprinted. <br />
+            <img src="FinishedLampBase1.jpg" width="500" /> <br />
+            <img src="FinishedLampBase2.jpg" width="500" /> <br />
+            <img src="FinishedLampBase3.jpg" width="500" /> <br />
+            <br />
+            The top ring and base case snap together, so the top ring can be a base for the lampshade.  I will use Gorilla Glue to adhere the lampshade, since the top ring can unsnap from the base case (for bulb changes). <br />
+            <video width="600" height="400" controls>
+                <source src="IMG_3273.mp4" type="video/mp4" />
+                <source src="movie.ogg" type="video/ogg" />
+            </video> <br />
+        </p>
+        <br />
+        <p>
+            Now came the hardest part of this assignment - printing a Voronoi mesh.  At first, I did not realize how many adjusted settings were necessary to print this style of mesh effectively. I had to stop a few prints very early when the printing of the mesh pulled the raft off the plate, causing nozzle clogs and wayward filament. <br />
+            This prompted me to do research online.  I found many articles and videos on printing Voronoi mesh, so this is not a problem specific to me. Adjustments of flow rates (very high), heat (nozzle and bed very hot), fan settings (very high), ahd other factors had to be considered. <br />
+            Not only that, but adjustments vary by printer, and Creality printers, according to many websites, are the most difficult for printing Voronoi, and getting the settings right. <br />
+            This was when I realized that I might not be able to actually print this lampshade, but I was determined to try.  The hardest part is that the smallest version that would cover the lightbulb was a 17.5-hour print job at standard. <br />
+            I made an emergency spherical mesh lampshade, just in case. <br />
+            <br />
+            <img src="CUraVoronoiShadeSetting-100.jpg" width="500" /> <br />
+            While each try got progressively better as I adjusted the settings, the time investment in the failed prints was frustrating (the first failed try was 5 hours in, the second was 7 hours in). <br />
+            <img src="VoronoiFirstTries1.jpg" width="600" /> <br />
+            No matter the setting, the biggest problem was the nozzle/filament snagging, at some point, on a mesh tip, and pulling the entire print off the bed, wrecking the print.  So I again increased and adjusted settings and then I broke out the big guns. <br />
+            <img src="StickerSheet-100.jpg" width="600" /> <br />
+            <img src="Sticky.jpg" width="500" /> <br />
+            I had purchased this a while ago, but hadn't used it yet. Creality says it is the most adherent of all bed trays, and it is really sticky - if you use one, remember to have your hair pulled back. <br />
+            I started printing again. <br />
+            The print at 4 hours in: <br />
+            <img src="Voronoi4HoursIn.jpg" width="600" /> <br />
+            <br />
+            Again at 6 hours in: <br />
+            <img src="6HoursVoronoiShade3.jpg" width="600" /> <br />
+            <img src="6HoursVoronoiShadeControls.jpg" width="400" /> <br />
+            <br />
+            And at 11 hours: <br />
+            <img src="11Hours2.jpg" width="550" /> <br />
+            <img src="11HoursControls.jpg" width="450" /> <br />
+            <br />
+            Here we are at 15 hours, 70% finished printing: <br />
+            <img src="70Percent.jpg" width="450" /> <br />
+            <img src="70Percent2.jpg" width="500" /> <br />
+            <img src="70Percent3.jpg" width="500" /> <br />
+            <br />
+        </p>
+        <p>
+            After 21 hours and many tries, my Voronoi mesh lampshade finished printing!  It was rough, and needed a lot of sanding and trimming - it is still a little fuzzy. <br />
+            <img src="FreshOffPrinter.jpg" width="500" /> <br />
+            <img src="100Percent.jpg" width="500" /> <br />
+            <img src="SandingnTrimming.jpg" width="500" /> <br />
+            <br />
+            Once I had done my best to remove the raft and sand and trim off the worst of the fuzz and stringy filament bits, I got ready to cure the Gorilla glue to adhere the lampshade to the top ring in my base setup.  It took about an hour to cure. <br />
+            <img src="Ready2Glue.jpg" width="500" /> <br />
+            <video width="600" height="400" controls>
+                <source src="IMG_3280.mp4" type="video/mp4" />
+                <source src="movie.ogg" type="video/ogg" />
+            </video> <br />
+            <br />
+            Now it was time to try out my new lamp! <br />
+            <img src="Blue1.jpg" width="600" /> <br />
+            <img src="Blue4.jpg" width="600" /> <br />
+            <img src="BlueProfile.jpg" width="600" /> <br />
+        </p>
+        <p>
             Source files can be found here: <br />
-            <a href="file:///D:\jlafleuw\jlafleuw-github.io">MoonAndStarsLampDesign.3dm</a> <br />
-            <a href="file:///D:\jlafleuw\jlafleuw-github.io">ExperimentTulipSides.3dmbak</a> <br />
-            <a href="file:///D:\jlafleuw\jlafleuw-github.io">GeometricsWarped.3dm</a> <br />
-            <a href="file:///D:\jlafleuw\jlafleuw-github.io">MushroomTops.3dm</a> <br />
-            <a href="file:///D:\jlafleuw\jlafleuw-github.io">SpheresforCuttingTopnBottom.3dm</a> <br />
-            <a href="file:///D:\jlafleuw\jlafleuw-github.io">HalfDomeMesh.3dm</a> <br />
-            <a href="file:///D:\jlafleuw\jlafleuw-github.io">Jelly1.3dm</a> <br />
-            <a href="file:///D:\jlafleuw\jlafleuw-github.io">MeshBulbBaseLamp.3dm</a> <br />
+            <a href="MoonAndStarsLampDesign.3dm">MoonAndStarsLampDesign.3dm</a> <br />
+            <a href="GeometricsWarped.3dm">GeometricsWarped.3dm</a> <br />
+            <a href="MushroomTops.3dm">MushroomTops.3dm</a> <br />
+            <a href="SpheresforCuttingTopnBottom.3dm">SpheresforCuttingTopnBottom.3dm</a> <br />
+            <a href="HalfDomeMesh.3dm">HalfDomeMesh.3dm</a> <br />
+            <a href="Jelly1.3dm">Jelly1.3dm</a> <br />
+            <a href="MeshBulbBaseLamp.3dm">MeshBulbBaseLamp.3dm</a> <br />
+            <a href="VoronoiSphere001.3dm">VoronoiSphere001.3dm</a> <br />
+            <a href="Sphere3-Copy.gh">Sphere3-Copy.gh</a> <br />
+            <a href="MeshBulbBaseLampnCone2.3dm">MeshBulbBaseLampnCone2.3dm</a>
+        </p>
+        <br />
+        <br />
+        <p>
+            <b>MOLDING AND CASTING PART 1: The Good Kind of Mold?</b><br />
+            <br />
+            The instructions for this assignment confused me at first.  Still, I went into Rhino and experimented with shapes, meshes, and Boolean differences until I made a mold for a small block. <br />
+            At first, I was going to get fancy and make a little devil head, but I was having trouble with the dimensions, and it was taking too much time.  I took Nadya's advice and went for the simple block shape instead. <br />
+            <img src="Item4Mold-100.jpg" width="500" /> <br />
+            <img src="MoldsforPrint-100.jpg" width="500" /> <br />
+            <img src="CubeMoldProgressRhino-100.jpg" width="600" /> <br />
+            <br />
+            This process took a lot of experimentation, so I kept extra copies of everything I had tried, in case I needed to reuse anything. <br />
+            <img src="DetailedMoldItemsfor3DPrint-100.jpg" width="600" /> <br />
+            <img src="PouringShafts-100.jpg" width="500" /> <br />
+            <img src="Revised3DPrintMolds-100.jpg" width="600" /> <br />
+            <br />
+            I also needed to print my object, and the halves of my object, the little block. <br />
+            <img src="RhinoBlocks4Print-100.jpg" width="500" /> <br />
+            I used a simple cutting plane to split my block. <br />
+        </p>
+        <p>
+            Once everything was drafted in Rhino, I set out to print. <br />
+            <img src="CuraMolds-100.jpg" width="500" /> <br />
+            My first mold was only kind of successful - I forgot to add a top layer. <br />
+            <img src="BlockMoldFinishPrint3.jpg" width="600" /> <br />
+            <img src="BlockMoldApart.jpg" width="500" /> <br />
+            Oops. <br />
+            <br />
+            I went in to Cura and added a top layer and, after a brief interlude of replacing a clogged and damaged nozzle and fixing my extruder, I reprinted the mold. <br />
+            <img src="NewBlockMold2.jpg" width="600" /> <br />
+            <img src="NewBlockMold3.jpg" width="600" /> <br />
+            <img src="BlockMoldReady.jpg" width="600" /> <br />
+            <img src="BlockMoldTogether2.jpg" width="600" /> <br />
+            <img src="BlockMoldTogether3.jpg" width="600" /> <br />
+            <img src="CuraBLocks2-100.jpg" width="500" /> <br />
+            I had to use sandpaper to get the edges (rims?) flush with each other after printing.  I have a pouring spout, but because the mold is so small, I did not add a vent shaft.  If I need one, I will use a drill. <br />
+        </p>
+        <p>
+            NEXT: Molding and Casting!
+        </p>
+        <br />
+        <p>
+            Source Files: <br />
+            <a href="CubeMold.3dm">CubeMold.3dm</a> <br />
+            <a href="CubeMold3.3dm">CubeMold3.3dm</a> <br />
+            <a href="CubeMold4.3dm">CubeMold4.3dm</a> <br />
         </p>
     </div>
 
